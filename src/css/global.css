@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+    --font-title: "Noto Serif", sans-serif;
+    --font-text: "Inter", sans-serif;
+    --color-cream: oklch(0.95 0.018 78);
+    --color-espresso: oklch(0.18 0.025 50);
+    --color-terracotta: oklch(0.45 0.12 39);
+    --color-cream-light: oklch(0.97 0.014 78);
+    --color-beige-muted: oklch(0.9 0.025 78);
+    --color-caramel-gold: oklch(0.75 0.1 55);
+    --color-border-beige: oklch(0.84 0.035 78);
+}
+
+body {
+    @apply font-text text-sm bg-cream;
+}

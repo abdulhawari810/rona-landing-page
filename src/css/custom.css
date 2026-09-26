@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Sesuaikan ukurannya dengan tinggi Navbar Anda (misal tinggi navbar 80px) */
+#our-story {
+    scroll-margin-top: 80px;
+}
+#menu {
+    scroll-margin-top: 80px;
+}
+#visit-us {
+    scroll-margin-top: 80px;
+}
